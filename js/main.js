@@ -51,9 +51,9 @@ tableBuilder = '<h2>National League</h2> <table><tr> <th>Team</th><th>Wins</th><
 for (var j=0; j < teams.length; j++) {
   if (j == tempLeader) {
     console.log("entered at j=" + j);
-    tableBuilder += `<tr><td><strong>${teams[j]}</strong></td><td><strong>${losses[j]}</strong></td><td><strong>${teams[j]}</strong></td> </tr>`;
+    tableBuilder += `<tr><td><strong>${teams[j]}</strong></td><td><strong>${wins[j]}</strong></td><td><strong>${losses[j]}</strong></td> </tr>`;
   } else {
-    tableBuilder += `<tr><td>${teams[j]}</td><td>${losses[j]}</td><td>${teams[j]}</td></tr>`;
+    tableBuilder += `<tr><td>${teams[j]}</td><td>${wins[j]}</td><td>${losses[j]}</td></tr>`;
   }
 }
 tableBuilder += '</table>';
