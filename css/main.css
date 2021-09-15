@@ -1,11 +1,18 @@
-
-
-.answer{
-  border:1px solid #56A0D3;
-  width:50%;
-  min-height:50px;
+.answer {
+  border: 1px solid #56a0d3;
+  width: 50%;
+  min-height: 50px;
 }
 
-.tarheel-blue{
-  color:#56A0D3;
+.tarheel-blue {
+  color: #56a0d3;
+}
+
+th,
+td {
+  border: solid 0.5px black;
+}
+
+table {
+  border-collapse: collapse;
 }
